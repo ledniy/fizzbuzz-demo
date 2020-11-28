@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const fizzBuzzService = require('./fizzbuzz');
+const fizzBuzzService = require('../../src/services/fizzbuzz');
 
 describe('fizzBuzz service', () => {
   it('should return 15 items with fizz buzz and fizzbuzz', () => {
