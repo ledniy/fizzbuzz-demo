@@ -18,5 +18,9 @@
   "homepage": "https://github.com/ledniy/fizzbuzz#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
   }
 }
