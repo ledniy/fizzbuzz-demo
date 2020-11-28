@@ -7,7 +7,6 @@ const fizzBuzzSchema = require('./schemas/fizzbuzz');
 const service = require('./services/fizzbuzz');
 
 const app = express();
-const port = 3000;
 
 app.use(express.json());
 
@@ -21,4 +20,4 @@ app.use(helpers.notFound);
 
 app.use(errorHandler);
 
-app.listen(port);
+module.exports = app;
