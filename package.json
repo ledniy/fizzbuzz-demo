@@ -1,5 +1,5 @@
 {
-  "name": "fizzbuzz",
+  "name": "fizzbuzz-demo",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ledniy/fizzbuzz.git"
+    "url": "git+ssh://git@github.com/ledniy/fizzbuzz-demo.git"
   },
   "author": "Vlad Goldman",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ledniy/fizzbuzz/issues"
+    "url": "https://github.com/ledniy/fizzbuzz-demo/issues"
   },
-  "homepage": "https://github.com/ledniy/fizzbuzz#readme",
+  "homepage": "https://github.com/ledniy/fizzbuzz-demo#readme",
   "dependencies": {
     "celebrate": "^13.0.4",
     "express": "^4.17.1"
