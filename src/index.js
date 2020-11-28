@@ -1,6 +1,8 @@
 const express = require('express');
-const FizzBuzzController = require('./controllers/fizzbuzz');
+const helpers = require('./helpers');
 const errorHandler = require('./errorHandler');
+
+const FizzBuzzController = require('./controllers/fizzbuzz');
 const fizzBuzzSchema = require('./schemas/fizzbuzz');
 const service = require('./services/fizzbuzz');
 
@@ -12,7 +14,10 @@ app.use(express.json());
 const fizzBuzzController = FizzBuzzController(service);
 
 app.route('/fizzbuzz')
-  .post(fizzBuzzSchema.post, fizzBuzzController.post);
+  .post(fizzBuzzSchema.post, fizzBuzzController.post)
+  .all(helpers.notImplemented);
+
+app.use(helpers.notFound);
 
 app.use(errorHandler);
 
