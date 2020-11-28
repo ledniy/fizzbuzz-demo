@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ledniy/fizzbuzz#readme",
   "dependencies": {
+    "celebrate": "^13.0.4",
     "express": "^4.17.1"
   },
   "devDependencies": {
